@@ -10,8 +10,8 @@ function Line(props)
     var moveEndY = (props.move + 200 * isrev) * Math.sin(Math.atan(window.innerHeight / window.innerWidth));
     var offsetX = isrev * -Math.abs(props.index - 1) * 50 * Math.cos(Math.atan(window.innerHeight / window.innerWidth));
     var offsetY = isrev * -Math.abs(props.index - 1) * 50 * Math.sin(Math.atan(window.innerHeight / window.innerWidth));
-    var translateStart = `translate(${0 + moveStartX + offsetX}px, ${(props.index - 1) * 50 + moveStartY + offsetY}px) rotate(${rotation}deg)`
-    var translateEnd = `translate(${0 + moveEndX - offsetX}px, ${(props.index - 1) * 50 + moveEndY - offsetY}px) rotate(${rotation}deg)`
+    var translateStart = `translate(${0 + moveStartX + offsetX}px, ${(props.index - 1) * 100 + moveStartY + offsetY}px) rotate(${rotation}deg)`
+    var translateEnd = `translate(${0 + moveEndX - offsetX}px, ${(props.index - 1) * 100 + moveEndY - offsetY}px) rotate(${rotation}deg)`
 
     return (
         <motion.div

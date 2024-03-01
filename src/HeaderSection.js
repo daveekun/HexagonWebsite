@@ -7,10 +7,10 @@ function HeaderSection()
     return (
         <section className="HeaderSection">
             <h1 className="welcome">Welcome to</h1>
+            <Navigation />
             <div className="logoContainer">
                 <Logo isdark={true} />
             </div>
-            <Navigation />
             <Lines />
         </section>
     );
