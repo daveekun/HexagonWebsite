@@ -4,7 +4,9 @@ function BoardSection()
     return (
         <section className="BoardSection" id="OurBoard">
             <SectionTitle title="OurBoard" />
-            <p>some sample text</p>
+            <div className="container">
+                
+            </div>
         </section>
     )
 }

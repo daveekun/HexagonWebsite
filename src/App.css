@@ -7,12 +7,13 @@ body {
   overflow-x: hidden;
   background-color: white;
   font-family: monospace;
+  scroll-behavior: smooth;
 }
 
 .welcome {
   font-size: 7rem;
-  text-align: right;
-  padding: 10%;
+  text-align: center;
+    padding: 5%;
   color: black;
   margin: 0;
 }
@@ -37,6 +38,12 @@ body {
   padding: 1%;
 }
 
+.navbox {
+  position: absolute;
+  min-width: 20%;
+  bottom: 5%;
+  left: 2%;
+}
 .line {
   width: 60vw;
   height: 1.5vh;
@@ -58,12 +65,14 @@ body {
   color: black;
   text-decoration: none;
   margin: 1% 5%;
+  transition: all 0.2s ease-in-out;
 }
 
 .TitleLink:hover {
   margin: 1% 7%;
   cursor: pointer;
   font-weight: 4 00;
+  transition: all 0.2s ease-in-out;
 }
 
 .SectionTitle {
@@ -71,4 +80,62 @@ body {
   color: black;
   margin: 1% 1%;
   display: inline;
+}
+.half {
+  width: 50%;
+  margin: 10% 25%;
+  vertical-align: middle;
+}
+
+.third {
+  width: 25%;
+  height: 70%;
+  float: left;
+  margin: 4%;
+}
+
+.container {
+  width: 80%;
+  height: 60%;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+b {
+  font-size: 2.2rem;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.linkbutton {
+  padding: 2%;
+  min-width: 20%;
+  max-width: 30%;
+  border: 2px solid black;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.linkbutton:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
