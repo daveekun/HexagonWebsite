@@ -9,12 +9,13 @@ import PartnerSection from './Partners.js';
 function App() {
   return (
     <div className="App">
-      <HeaderSection />
-      <MainSection />
-      <MissionSection />
-      <CollabSection />
-      <BoardSection />
-      <PartnerSection />
+      <div className='scroll' dir="ltr">
+        <HeaderSection />
+        <MainSection />
+        <MissionSection />
+        <CollabSection />
+        <BoardSection />
+      </div>
     </div>
   );
 }

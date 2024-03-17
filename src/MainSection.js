@@ -4,7 +4,7 @@ function MainSection()
 {
     return (
         <section className="MainSection" id="WhatisHexagon">
-            <SectionTitle title="WhatisHexagon" />
+            <SectionTitle title="What-is-Hexagon?" />
             <div className="container">
                 <div className="center half">
                     <p className="text-center">
@@ -16,7 +16,7 @@ function MainSection()
                 </div>
                 <div className="buttons">
                         <LinkButton title="Partners" />
-                        <LinkButton title="Lets Collab!" />
+                    <LinkButton title="Lets Collab!" />
                 </div>
             </div>
         </section>

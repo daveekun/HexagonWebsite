@@ -1,7 +1,7 @@
 function LinkButton(props)
 {
     return (
-        <a className="linkbutton">
+        <a className="linkbutton" href="#">
             {props.title}
         </a>
     )

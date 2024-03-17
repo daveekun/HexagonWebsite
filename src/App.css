@@ -1,8 +1,13 @@
 section {
   width: 100vw;
   height: 100vh;
+  scroll-snap-align: start;
 }
-  
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   background-color: white;
@@ -78,8 +83,10 @@ body {
 .SectionTitle {
   font-size: 5rem;
   color: black;
-  margin: 1% 1%;
+  padding: 2% 0%;
+    margin: 2%;
   display: inline;
+  position: relative;
 }
 .half {
   width: 50%;
@@ -89,7 +96,7 @@ body {
 
 .third {
   width: 25%;
-  height: 70%;
+  height: 80%;
   float: left;
   margin: 4%;
 }
@@ -97,11 +104,16 @@ body {
 .container {
   width: 80%;
   height: 60%;
-  margin-top: 10%;
-  margin-left: 10%;
+  margin: 5% 10%;
   font-size: 2rem;
 }
 
+.cardcontainer {
+  width: 80%;
+  height: 60%;
+  margin: 5% 10%;
+  font-size: 2rem;
+}
 .text-center {
   text-align: center;
 }
@@ -123,6 +135,7 @@ a:hover {
   min-width: 20%;
   max-width: 30%;
   border: 2px solid black;
+  color: black;
   text-decoration: none;
   text-align: center;
   transition: all 0.2s ease;
@@ -138,4 +151,133 @@ a:hover {
   display: flex;
   width: 100%;
   justify-content: space-around;
+}
+.card {
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  height: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card_rotate {
+  transform: rotateY(180deg);
+}
+
+.cardfront {
+  position: absolute;
+  border: 2px solid black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  background-color: white;
+  backface-visibility: hidden;
+  color: black;
+}
+
+.cardback {
+  position: absolute;
+  border: 2px solid black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20% 4%;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  background-color: black;
+  backface-visibility: hidden;
+  color: white;
+  text-align: justify;
+  transform: rotateY(180deg);
+}
+
+.cardtitle {
+  text-align: center;
+}
+
+.flip {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.personhexagon {
+  width: 18vw;
+  height: 20vw;
+  margin: 1vw;
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.personhexagon:hover {
+  cursor: pointer;
+}
+
+.hexagonbackground {
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.persontitle {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  text-align: center;
+  z-index: 0;
+  color: white;
+}
+
+.hrow {
+  width: 80vw;
+}
+
+.hexagonrow2 {
+  margin-top: -10vh;
+  padding-left: 10vw;
+}
+
+.portrait {
+  max-height: 27vh;
+  position: absolute;
+  bottom: 30%;
+  left: 30%;
+}
+
+.socials {
+  margin-left: 20%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.social {
+  height: 40%;
+}
+
+.imglink {
+  height: 100%;
+}
+
+.cardbottom {
+  color: white;
+  width: 60%;
+  height: 5%;
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  text-align: center;
+  text-decoration: none;
+  border: 4px solid white;
 }
