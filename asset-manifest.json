@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/HexagonWebsite/static/css/main.dcec80a1.css",
-    "main.js": "/HexagonWebsite/static/js/main.5c430721.js",
+    "main.css": "/HexagonWebsite/static/css/main.a29bf25c.css",
+    "main.js": "/HexagonWebsite/static/js/main.fad034d6.js",
     "static/js/453.93884bf9.chunk.js": "/HexagonWebsite/static/js/453.93884bf9.chunk.js",
+    "static/media/person3.png": "/HexagonWebsite/static/media/person3.428969d0e166b9fa1732.png",
+    "static/media/person4.png": "/HexagonWebsite/static/media/person4.9c5057eb6fa28ca96794.png",
+    "static/media/person0.png": "/HexagonWebsite/static/media/person0.c2e6a77cb1c23dd3ba5e.png",
+    "static/media/person2.png": "/HexagonWebsite/static/media/person2.0e4809c70b8e80f522d6.png",
+    "static/media/person1.png": "/HexagonWebsite/static/media/person1.b9ecbe8747ddf9ad3275.png",
     "static/media/Untitled-1.png": "/HexagonWebsite/static/media/Untitled-1.2e716943f45c4c9cd43e.png",
     "static/media/insta.png": "/HexagonWebsite/static/media/insta.d75323687c781bd20d9c.png",
     "static/media/logo_white.png": "/HexagonWebsite/static/media/logo_white.90ece7b8305a81284684.png",
     "static/media/logo.png": "/HexagonWebsite/static/media/logo.0ccc196ddc9701d05fbb.png",
     "index.html": "/HexagonWebsite/index.html",
-    "main.dcec80a1.css.map": "/HexagonWebsite/static/css/main.dcec80a1.css.map",
-    "main.5c430721.js.map": "/HexagonWebsite/static/js/main.5c430721.js.map",
+    "main.a29bf25c.css.map": "/HexagonWebsite/static/css/main.a29bf25c.css.map",
+    "main.fad034d6.js.map": "/HexagonWebsite/static/js/main.fad034d6.js.map",
     "453.93884bf9.chunk.js.map": "/HexagonWebsite/static/js/453.93884bf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcec80a1.css",
-    "static/js/main.5c430721.js"
+    "static/css/main.a29bf25c.css",
+    "static/js/main.fad034d6.js"
   ]
 }
